@@ -1,0 +1,199 @@
+comments
+
+concat
+
+typecast
+
+input
+
+calc
+
+string slicing
+	myword([0:2])
+
+string slicing (extended)
+	myword([2:4:2])
+
+string alicing with neg indices
+	myword([-1:-4])
+
+string reverse
+	myword([::-1])
+
+string related functions
+	.isalnum()
+	.isalpha
+	.endswith("something")
+	.count("b")
+	.capitalize()
+	.find("is")
+	.lower()
+	.upper()
+	.replace("is", "are")
+
+list
+	["hi", 4]
+
+list access
+	list2[5]
+
+list slicing
+	list2[2:5]
+
+list slicing (extended)
+	list2[::2]
+
+list reverse
+	list2[::-1]
+
+list related functions
+	.sort()		#original list changes
+	.reverse()	#original list changes
+	len(list2)
+	max(list2)
+	min(list2)
+	.append(7)
+	.insert(2,34)
+	.remove(9)
+	.pop()
+
+tuple 
+	(4,)
+
+dictionary
+	{"UP":"Lucknow", "UK":"Dehradoon"}
+	{"UP":"Lucknow", "UK":"Dehradoon", "UPS":{"north":"SRE", "centre":"LKO"}}
+
+dict access
+	dict2["UP"]
+	dict2["UPS"]["north"]
+
+dict insert
+	dict2["KA"] = "Bengaluru"
+
+dict delete
+	del dict2["KA"]
+
+dict functions
+	.copy()
+	.get("UP")
+	.update({"MP":"Bhopal"})
+	.keys()
+	.items()
+
+set
+	set()
+	set([1,2,3])
+
+set functions
+	.add(5)
+	.union({1,2,4,5})
+	.intersection({1,2}) 
+	len(set2)
+	min(set2)
+	max(set2)
+	.isdisjoint(set3)
+	.remove(2)
+
+if else & elif 
+
+loop
+
+while loop
+
+break and continue
+	
+operators
+	5**2
+	5%5
+	12//5
+	+=5
+	or
+	and
+	is
+	is not
+	in 
+	not in
+	&
+	|
+
+short hand if else
+	
+functions
+	sum((a,b))
+
+function docstring
+
+try except exception handling
+
+file IO basics
+	r for read (default)
+	w for writing
+	x create if not exist
+	a add content
+	t text mode (default)
+	b binary mode
+	+ read and write
+	open("f2.txt", "rt")
+	pointer2.read()
+	content.close()
+	ponter2.readline()
+	ponter2.readlines()
+
+write and append to file
+
+file IO basics 
+	ponter2.tell() where is the pointer now
+	ponter2.seek(0) reset pointer to 0th character
+
+with block to open files (no need to close file now)
+	with open("f2.txt") as pointer2:
+		content = pointer2.read(5)
+		print(content)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
